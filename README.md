@@ -40,10 +40,10 @@ python main.py
 - Save the generated key and encrypted message
 
 ### Decrypting a Message
-Enter decrypt when prompted
-Enter the key that was provided during encryption
-Enter the encrypted message
-View your decrypted message
+- Enter decrypt when prompted
+- Enter the key that was provided during encryption
+- Enter the encrypted message
+- View your decrypted message
 
 ### Requirements
 Python 3.x
