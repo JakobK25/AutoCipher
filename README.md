@@ -10,7 +10,7 @@ A Python encryption/decryption tool using the Fernet symmetric encryption method
 ### Clone the repository:
 ~~~
 git clone https://github.com/jakobk25/AutoCipher
-cd AutoCipher-1
+cd AutoCipher
 ~~~
 
 ### Create a virtual environment (recommended):
