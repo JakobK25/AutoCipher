@@ -1,6 +1,8 @@
 from cryptography.fernet import Fernet
 import os
 
+os.system('cls')
+
 running = True
 
 while running == True:
