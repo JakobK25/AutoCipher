@@ -9,7 +9,7 @@ A Python encryption/decryption tool using the Fernet symmetric encryption method
 ## Installation
 ### Clone the repository:
 ~~~
-git clone https://github.com/jakobk25/AutoCipher.git
+git clone https://github.com/jakobk25/AutoCipher
 cd AutoCipher-1
 ~~~
 
