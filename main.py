@@ -1,14 +1,40 @@
 from cryptography.fernet import Fernet
+import os
 
-# Generate a key and instantiate a Fernet instance
+running = True
 
-message = input("Enter the message: ")
+while running == True:
 
-key = Fernet.generate_key()
-print(str("Here is your key: ") + str(key))
-f = Fernet(key)
-token = f.encrypt(message.encode())
-print(token)
+    print("Welcome to the encryption program!")
+    choice = input("Enter 'encrypt' or 'decrypt': ")
 
-deToken = f.decrypt(token)
-print(deToken)
+    if choice == "encrypt":
+        message = input("Enter the message you would like to encrypt: ")
+        os.system('cls')
+
+        key = Fernet.generate_key()
+        print(str("Here is your key: ") + str(key))
+        print()
+
+        f = Fernet(key)
+        token = f.encrypt(message.encode())
+
+        print("Here is your encrypted message: ")
+        print(token)
+    if   choice == "decrypt":
+        key = input("Enter your key: ")
+        token = input("Enter your encrypted message: ")
+
+        os.system('cls')
+        f = Fernet(key)
+        message = f.decrypt(token)
+
+        print("Here is your decrypted message:")
+        print(message.decode())
+
+    break 
+
+
+        
+    
+
