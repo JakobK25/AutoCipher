@@ -1,53 +1,53 @@
-#AutoCipher#
+#AutoCipher
 A Python encryption/decryption tool using the Fernet symmetric encryption method.
 
-##Features##
+##Features
 - Encrypt text messages with a secure key
 - Decrypt messages using the provided key
 - Simple command-line interface
 
-##Installation##
-###Clone the repository:###
+##Installation
+###Clone the repository:
 ~~~
 git clone https://github.com/yourusername/AutoCipher-1.git
 cd AutoCipher-1
 ~~~
 
-###Create a virtual environment (recommended):###
+###Create a virtual environment (recommended):
 ~~~
 python -m venv .venv
 ~~~
 
-###Activate the virtual environment:###
+###Activate the virtual environment:
 
 Windows: activate
 macOS/Linux: source .venv/bin/activate
 
-###Install dependencies:###
+###Install dependencies:
 ~~~
 pip install -r requirements.txt
 ~~~
 
-##Usage##
+##Usage
 Run the program:
 ~~~
 python main.py
 ~~~
 
-###Encrypting a Message###
+###Encrypting a Message
 -Enter encrypt when prompted
 -Type the message you want to encrypt
 -Save the generated key and encrypted message
 
-###Decrypting a Message###
+###Decrypting a Message
 Enter decrypt when prompted
 Enter the key that was provided during encryption
 Enter the encrypted message
 View your decrypted message
 
-###Requirements###
+###Requirements
 Python 3.x
 cryptography package
 
-##License##
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
