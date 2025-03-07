@@ -35,9 +35,9 @@ python main.py
 ~~~
 
 ### Encrypting a Message
--Enter encrypt when prompted
--Type the message you want to encrypt
--Save the generated key and encrypted message
+- Enter encrypt when prompted
+- Type the message you want to encrypt
+- Save the generated key and encrypted message
 
 ### Decrypting a Message
 Enter decrypt when prompted
